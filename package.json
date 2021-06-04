@@ -1,0 +1,30 @@
+{
+    "name": "shades-of-blue",
+    "displayName": "Shades of Blue",
+    "description": "Dark Blue Theme for VSCode.",
+    "publisher": "bakrimoharram",
+    "author": {
+        "name": "Bakri Moharram",
+        "email": "bakri_moharram@hotmail.com"
+    },
+    "repository": {
+        "url": "https://github.com/bakrimoharram/shades-of-blue.git",
+        "type": "git"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "shades-of-blue",
+                "uiTheme": "vs-dark",
+                "path": "./themes/shades-of-blue.json"
+            }
+        ]
+    }
+}
